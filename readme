@@ -1,0 +1,19 @@
+Challenges -
+1. Working with doc file
+2.
+
+TODO -
+1. Can use TF-IDF or similar weighting before embedding.
+2. Optional: Use LLM for final scoring
+After FAISS retrieves top N resumes, pass them with JD keywords to an LLM to score relevance.
+This mimics human reasoning and reduces irrelevant matches.
+3. Add loggers
+
+
+more improvements -
+1. Folder structure can be better
+2. can try more embedding models
+3. Can be better if we make sure that the job description is in particular format - like - responsibilities, specialist, etc are mandatory
+4. if there is only 1 relevant reasume, then also it is returning 5 resumes. But it should not.
+
+
